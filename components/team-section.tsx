@@ -4,27 +4,27 @@ export default function TeamSection() {
   const team = [
     {
       name: "Jayne Yu",
-      role: "CEO & Co-Founder",
+      role: "CEO",
       expertise: "AI Governance & Legal Affairs",
-      description: "Juris Doctor from Keio University Law School. Specialist in AI regulation and ethics governance with multiple patents pending. Currently pursuing constitutional litigation against the Japanese government.",
+      description: "Juris Doctor from Keio University Law School. Internship experience at several top law firms. Specialist in AI regulation and ethics governance with multiple patents pending. Currently pursuing constitutional litigation against the Japanese government.",
       image: "JY",
       color: "from-blue-500 to-purple-600",
-      credentials: "JD, AI Ethics Research"
+      credentials: "Keio JD, AI Governance Research"
     },
     {
       name: "Joe Wang",
-      role: "CTO & Co-Founder", 
+      role: "CTO", 
       expertise: "AI Research & Quantitative Trading",
       description: "PhD in Engineering from Waseda University, Sony AI Research Lead. 15+ years in AI research, 12 years investment experience with 22% average annual returns. Published multiple top-tier AI conference papers.",
       image: "JW",
       color: "from-purple-500 to-pink-600",
-      credentials: "PhD Engineering, Sony AI"
+      credentials: "Waseda PhD, Sony AI Research Lead"
     },
     {
       name: "Evy Yang",
-      role: "COO & Co-Founder",
+      role: "COO",
       expertise: "Trading Systems & Operations",
-      description: "Graduate student at University of Tokyo. 5+ years experience in FX, futures, and stock trading. Co-founder of China's largest Smart Money Concept trading community. Top 100 finisher in China National Futures Trading Competition.",
+      description: "Graduate student at University of Tokyo. 5+ years of experience in FX, futures, and stock trading. Co-founder of China's largest Smart Money Concept trading community. Top 100 finisher in China National Futures Trading Competition.",
       image: "EY", 
       color: "from-pink-500 to-red-600",
       credentials: "UTokyo Graduate, Quant Trader"

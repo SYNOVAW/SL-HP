@@ -49,12 +49,12 @@ export default function Footer() {
                 <span className="text-white font-bold text-lg">S</span>
               </div>
               <div className="text-white">
-                <div className="font-semibold text-lg">SAIL Lab</div>
+                <div className="font-semibold text-lg">Sail Lab</div>
                 <div className="text-xs text-white/70 -mt-1">AI Financial Solutions</div>
               </div>
             </div>
             <p className="text-white/70 text-sm leading-relaxed mb-4 max-w-md">
-              SAIL Lab revolutionizes financial services through AI-driven automation, intelligent risk management, 
+              Sail Lab revolutionizes financial services through AI-driven automation, intelligent risk management, 
               and cutting-edge quantitative trading solutions.
             </p>
             <div className="flex space-x-4">

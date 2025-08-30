@@ -50,7 +50,7 @@ export default function ContactSection() {
             <span className="font-medium italic instrument">Ready</span> to Transform
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            Partner with SAIL Lab to revolutionize your financial operations with cutting-edge AI solutions.
+            Partner with Sail Lab to revolutionize your financial operations with cutting-edge AI solutions.
           </p>
         </div>
 

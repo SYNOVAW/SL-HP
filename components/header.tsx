@@ -34,25 +34,25 @@ export default function Header() {
           href="#services"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          {t('nav.services')}
+          {t('Services')}
         </a>
         <a
           href="#team"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          {t('nav.team')}
+          {t('Team')}
         </a>
         <a
           href="#products"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          {t('nav.products')}
+          {t('Products')}
         </a>
         <a
           href="#contact"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          {t('nav.contact')}
+          {t('Contact')}
         </a>
         <LanguageSwitcher />
       </nav>
@@ -65,7 +65,7 @@ export default function Header() {
           </svg>
         </button>
         <button className="px-6 py-2 rounded-full bg-white text-black font-normal text-xs transition-all duration-300 hover:bg-white/90 cursor-pointer h-8 flex items-center z-10">
-          {t('nav.getStarted')}
+          {t('Get Started')}
         </button>
       </div>
     </header>

@@ -16,8 +16,8 @@ export default function ProductsSection() {
       category: "Short-term Trading (Stocks, Forex, Crypto)",
       description: "Advanced neural network-driven quantitative system using Offline RL + Heuristic integration and Oracle Imitation Learning (OIL). Enhances existing trading strategies without replacement.",
       features: ["Offline RL + Heuristics", "Strategy refinement (not replacement)", "Custom model generation", "BackTest proven superior performance"],
-      status: "Available",
-      statusColor: "text-green-400",
+      status: "Beta",
+      statusColor: "text-yellow-400",
       pricing: "$120-180k/year enterprise"
     },
     {

@@ -1,30 +1,23 @@
 {
-  "nav": {
-    "services": "Services",
-    "team": "Team",
-    "products": "Products",
-    "contact": "Contact",
-    "getStarted": "Get Started"
-  },
   "hero": {
     "tagline": "AI-Powered Financial Innovation",
     "title": "Intelligent Financial",
     "subtitle": "Solutions",
-    "description": "SAIL Lab revolutionizes financial services through AI-driven automation, intelligent risk management, and cutting-edge quantitative trading solutions that adapt to market dynamics in real-time.",
+    "description": "Sail Lab revolutionizes financial services through AI-driven automation, intelligent risk management, and cutting-edge quantitative trading solutions that adapt to market dynamics in real-time.",
     "learnMore": "Learn More",
     "contactUs": "Contact Us"
   },
   "services": {
     "title": "Our Core Services",
     "subtitle": "Revolutionary AI Solutions",
-    "description": "SAIL Lab provides comprehensive AI-powered solutions that transform traditional financial operations into intelligent, adaptive systems.",
+    "description": "Sail Lab provides comprehensive AI-powered solutions that transform traditional financial operations into intelligent, adaptive systems.",
     "multiAgent": {
       "title": "Multi-Agent LLM Analysis",
       "description": "Revolutionary investment analysis through collaborative AI agents that provide deep market insights and comprehensive reporting capabilities.",
       "features": ["Multi-agent collaboration", "Deep market research", "Investment report generation"]
     },
     "neuralTrading": {
-      "title": "Neural Network Trading",
+      "title": "Neural Network–Driven Quantitative Trading",
       "description": "Advanced neural network-driven quantitative systems that continuously learn and adapt to market conditions for optimized trading performance.",
       "features": ["Adaptive neural networks", "Real-time optimization", "Pattern recognition"]
     },
@@ -43,14 +36,14 @@
         "name": "Jayne Yu",
         "role": "CEO",
         "expertise": "AI Governance & Legal Affairs",
-        "credentials": "JD, AI Governance Research",
+        "credentials": "Keio JD, AI Governance Research",
         "description": "Juris Doctor from Keio University Law School. Specialist in AI regulation and ethics governance with multiple patents pending. Currently pursuing constitutional litigation against the Japanese government."
       },
       "joe": {
         "name": "Joe Wang",
         "role": "CTO",
         "expertise": "AI Research & Quantitative Trading",
-        "credentials": "PhD Engineering, Sony AI",
+        "credentials": "Waseda PhD Engineering, Sony AI",
         "description": "PhD in Engineering from Waseda University, Sony AI Research Lead. 15+ years in AI research, 12 years investment experience with 22% average annual returns. Published multiple top-tier AI conference papers."
       },
       "evy": {

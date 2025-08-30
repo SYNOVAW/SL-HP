@@ -3,19 +3,16 @@
 export default function ServicesSection() {
   const services = [
     {
-      icon: "🧠",
       title: "Multi-Agent LLM Analysis",
       description: "Revolutionary investment analysis through collaborative AI agents that provide deep market insights and comprehensive reporting capabilities.",
       features: ["Multi-agent collaboration", "Deep market research", "Investment report generation"]
     },
     {
-      icon: "🔗",
-      title: "Neural Network Trading",
+      title: "Neural Network–Driven Quantitative Trading",
       description: "Advanced neural network-driven quantitative systems that continuously learn and adapt to market conditions for optimized trading performance.",
       features: ["Adaptive neural networks", "Real-time optimization", "Pattern recognition"]
     },
     {
-      icon: "👥",
       title: "AI Trader Community",
       description: "Intelligent platform connecting AI traders with collaborative tools, strategy sharing, and community-driven performance enhancement.",
       features: ["Strategy marketplace", "Community insights", "Performance analytics"]
@@ -37,7 +34,7 @@ export default function ServicesSection() {
             <span className="font-medium italic instrument">Revolutionary</span> AI Solutions
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            SAIL Lab provides comprehensive AI-powered solutions that transform traditional financial operations into intelligent, adaptive systems.
+            SaiL Lab provides comprehensive AI-powered solutions that transform traditional financial operations into intelligent, adaptive systems.
           </p>
         </div>
 
