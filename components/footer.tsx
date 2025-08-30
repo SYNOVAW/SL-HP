@@ -1,5 +1,7 @@
 "use client"
 
+import Image from 'next/image'
+
 export default function Footer() {
   const socialLinks = [
     {
@@ -45,8 +47,14 @@ export default function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600">
-                <span className="text-white font-bold text-lg">S</span>
+              <div className="flex items-center justify-center w-10 h-10">
+                <Image
+                  src="/joe_logo.png"
+                  alt="SAIL Lab Logo"
+                  width={40}
+                  height={40}
+                  className="object-contain"
+                />
               </div>
               <div className="text-white">
                 <div className="font-semibold text-lg">Sail Lab</div>
