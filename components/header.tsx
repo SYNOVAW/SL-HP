@@ -1,6 +1,7 @@
 "use client"
 
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 import LanguageSwitcher from './language-switcher'
 
 export default function Header() {
@@ -11,8 +12,14 @@ export default function Header() {
       {/* Logo */}
       <div className="flex items-center">
         <div className="flex items-center space-x-3">
-          <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600">
-            <span className="text-white font-bold text-lg">S</span>
+          <div className="flex items-center justify-center w-10 h-10">
+            <Image 
+              src="/joe_logo.png" 
+              alt="SAIL Lab Logo" 
+              width={40} 
+              height={40} 
+              className="object-contain"
+            />
           </div>
           <div className="text-white">
             <div className="font-semibold text-lg">SAIL Lab</div>
