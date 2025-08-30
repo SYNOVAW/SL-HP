@@ -1,5 +1,7 @@
 "use client"
 
+import Image from 'next/image'
+
 export default function TeamSection() {
   const team = [
     {
@@ -8,6 +10,7 @@ export default function TeamSection() {
       expertise: "AI Governance & Legal Affairs",
       description: "Juris Doctor from Keio University Law School. Internship experience at several top law firms. Specialist in AI regulation and ethics governance with multiple patents pending. Currently pursuing constitutional litigation against the Japanese government.",
       image: "JY",
+      imageSrc: "/Jayne.jpg",
       color: "from-blue-500 to-purple-600",
       credentials: "Keio JD, AI Governance Research",
       linkedin: "https://linkedin.com/in/jayne-yu-synovaw/"
@@ -18,6 +21,7 @@ export default function TeamSection() {
       expertise: "AI Research & Quantitative Trading",
       description: "PhD in Engineering from Waseda University, Sony AI Research Lead. 15+ years in AI research, 12 years investment experience with 22% average annual returns. Published multiple top-tier AI conference papers.",
       image: "JW",
+      imageSrc: "/Joe.jpg",
       color: "from-purple-500 to-pink-600",
       credentials: "Waseda PhD, Sony AI Research Lead",
       linkedin: "https://linkedin.com/in/wang1946may7/"
@@ -28,6 +32,7 @@ export default function TeamSection() {
       expertise: "Trading Systems & Operations",
       description: "Graduate student at University of Tokyo. 5+ years of experience in FX, futures, and stock trading. Co-founder of China's largest Smart Money Concept trading community. Top 100 finisher in China National Futures Trading Competition.",
       image: "EY", 
+      imageSrc: "/Evy.jpg",
       color: "from-pink-500 to-red-600",
       credentials: "UTokyo Graduate, Quant Trader",
       linkedin: "https://linkedin.com/in/evy-yang-086b24375"
@@ -66,9 +71,22 @@ export default function TeamSection() {
               
               <div className="relative z-10 text-center">
                 {/* Avatar */}
-                <div className={`w-20 h-20 rounded-full bg-gradient-to-r ${member.color} flex items-center justify-center text-white font-bold text-xl mx-auto mb-4`}>
-                  {member.image}
-                </div>
+                {member.imageSrc ? (
+                  <div className={`w-20 h-20 rounded-full overflow-hidden mx-auto mb-4 border border-white/20`}>
+                    <Image
+                      src={member.imageSrc}
+                      alt={`${member.name} photo`}
+                      width={80}
+                      height={80}
+                      className="w-full h-full object-cover"
+                      priority
+                    />
+                  </div>
+                ) : (
+                  <div className={`w-20 h-20 rounded-full bg-gradient-to-r ${member.color} flex items-center justify-center text-white font-bold text-xl mx-auto mb-4`}>
+                    {member.image}
+                  </div>
+                )}
                 
                 <h3 className="text-xl font-medium text-white mb-1">{member.name}</h3>
                 <div className="text-blue-400 text-sm font-medium mb-1">{member.role}</div>
