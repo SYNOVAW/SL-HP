@@ -1,11 +1,8 @@
 "use client"
 
-import { useTranslations } from 'next-intl'
 import Image from 'next/image'
-import LanguageSwitcher from './language-switcher'
 
 export default function Header() {
-  const t = useTranslations()
 
   return (
     <header className="relative z-20 flex items-center justify-between p-6">
@@ -34,27 +31,26 @@ export default function Header() {
           href="#services"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          {t('Services')}
+          Services
         </a>
         <a
           href="#team"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          {t('Team')}
+          Team
         </a>
         <a
           href="#products"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          {t('Products')}
+          Products
         </a>
         <a
           href="#contact"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          {t('Contact')}
+          Contact
         </a>
-        <LanguageSwitcher />
       </nav>
 
       {/* Contact Button Group with Arrow */}
@@ -65,7 +61,7 @@ export default function Header() {
           </svg>
         </button>
         <button className="px-6 py-2 rounded-full bg-white text-black font-normal text-xs transition-all duration-300 hover:bg-white/90 cursor-pointer h-8 flex items-center z-10">
-          {t('Get Started')}
+          Get Started
         </button>
       </div>
     </header>
