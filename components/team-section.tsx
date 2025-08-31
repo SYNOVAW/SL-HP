@@ -1,8 +1,10 @@
 "use client"
 
 import Image from 'next/image'
+import { useI18n } from '@/lib/i18n'
 
 export default function TeamSection() {
+  const { t } = useI18n()
   const team = [
     {
       name: "Jayne Yu",
@@ -48,13 +50,13 @@ export default function TeamSection() {
             className="inline-flex items-center px-4 py-2 rounded-full bg-white/5 backdrop-blur-sm mb-6"
             style={{ filter: "url(#glass-effect)" }}
           >
-            <span className="text-white/90 text-sm font-light">Meet Our Team</span>
+            <span className="text-white/90 text-sm font-light">{t('team_chip')}</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-light text-white mb-4">
-            <span className="font-medium italic instrument">Visionary</span> Leadership
+            <span className="font-medium italic instrument">{t('team_title_visionary')}</span> {t('team_title_rest')}
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            Our founding team combines decades of experience in AI research, financial technology, and quantitative analysis.
+            {t('team_subtitle')}
           </p>
         </div>
 
