@@ -1,10 +1,8 @@
 "use client"
 
 import Image from 'next/image'
-import { useI18n } from '@/lib/i18n'
 
 export default function Footer() {
-  const { t } = useI18n()
   const socialLinks = [
     {
       name: "LinkedIn",
@@ -36,10 +34,10 @@ export default function Footer() {
   ]
 
   const quickLinks = [
-    { name: t("services_title_chip"), href: "#services" },
-    { name: t("team_chip"), href: "#team" },
-    { name: t("products_chip"), href: "#products" },
-    { name: t("contact_chip"), href: "#contact" }
+    { name: "Services", href: "#services" },
+    { name: "Team", href: "#team" },
+    { name: "Products", href: "#products" },
+    { name: "Contact", href: "#contact" }
   ]
 
   return (
@@ -59,12 +57,13 @@ export default function Footer() {
                 />
               </div>
               <div className="text-white">
-                <div className="font-semibold text-lg">{t("footer_company")}</div>
-                <div className="text-xs text-white/70 -mt-1">{t("footer_tagline")}</div>
+                <div className="font-semibold text-lg">Sail Lab</div>
+                <div className="text-xs text-white/70 -mt-1">AI Financial Solutions</div>
               </div>
             </div>
             <p className="text-white/70 text-sm leading-relaxed mb-4 max-w-md">
-              {t("footer_desc")}
+              Sail Lab revolutionizes financial services through AI-driven automation, intelligent risk management, 
+              and cutting-edge quantitative trading solutions.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link, index) => (
@@ -82,7 +81,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-medium mb-4">{t("footer_quick_links")}</h4>
+            <h4 className="text-white font-medium mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index}>
@@ -99,7 +98,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-white font-medium mb-4">{t("footer_contact")}</h4>
+            <h4 className="text-white font-medium mb-4">Contact</h4>
             <div className="space-y-2 text-sm">
               <p className="text-white/70">wasedajoe@gmail.com</p>
               <p className="text-white/70">+81 3-5985-6245</p>
@@ -111,12 +110,12 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
           <div className="text-white/60 text-sm mb-4 md:mb-0">
-            {t("footer_rights")}
+            © 2025 Sail Lab. All rights reserved.
           </div>
           <div className="flex space-x-6 text-sm">
-            <a href="#" className="text-white/60 hover:text-white transition-colors">{t("footer_privacy")}</a>
-            <a href="#" className="text-white/60 hover:text-white transition-colors">{t("footer_terms")}</a>
-            <a href="#" className="text-white/60 hover:text-white transition-colors">{t("footer_cookies")}</a>
+            <a href="#" className="text-white/60 hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="text-white/60 hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="text-white/60 hover:text-white transition-colors">Cookies</a>
           </div>
         </div>
       </div>

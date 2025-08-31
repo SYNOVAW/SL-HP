@@ -92,6 +92,16 @@ const defaultMessages: Record<Locale, Messages> = {
     footer_privacy: "Privacy Policy",
     footer_terms: "Terms of Service",
     footer_cookies: "Cookies",
+    // Team card content
+    team_m1_expertise: "AI Governance & Legal Affairs",
+    team_m1_desc: "Juris Doctor from Keio University Law School. Internship experience at several top law firms. Specialist in AI regulation and ethics governance with multiple patents pending. Currently pursuing constitutional litigation against the Japanese government.",
+    team_m1_cred: "Keio JD, AI Governance Research",
+    team_m2_expertise: "AI Research & Quantitative Trading",
+    team_m2_desc: "PhD in Engineering from Waseda University, Sony AI Research Lead. 15+ years in AI research, 12 years investment experience with 22% average annual returns. Published multiple top-tier AI conference papers.",
+    team_m2_cred: "Waseda PhD, Sony AI Research Lead",
+    team_m3_expertise: "Trading Systems & Operations",
+    team_m3_desc: "Graduate student at University of Tokyo. 5+ years of experience in FX, futures, and stock trading. Co-founder of China's largest Smart Money Concept trading community. Top 100 finisher in China National Futures Trading Competition.",
+    team_m3_cred: "UTokyo Graduate, Quant Trader",
   },
   zh: {
     tagline: "AI驱动的金融创新",
@@ -178,6 +188,16 @@ const defaultMessages: Record<Locale, Messages> = {
     footer_privacy: "隐私政策",
     footer_terms: "服务条款",
     footer_cookies: "Cookies",
+    // Team card content
+    team_m1_expertise: "AI 治理与法律事务",
+    team_m1_desc: "庆应义塾大学法学院法学博士。曾在多家顶尖律所实习。专长于 AI 监管与伦理治理，拥有多项在审专利。目前正就日本政府推进宪法诉讼。",
+    team_m1_cred: "庆应 JD，AI 治理研究",
+    team_m2_expertise: "AI 研究与量化交易",
+    team_m2_desc: "早稻田大学工学博士，Sony AI 研究负责人。15+ 年 AI 研究、12 年投资经验，年均收益 22%。多篇顶级会议论文发表。",
+    team_m2_cred: "早稻田博士，Sony AI 研究负责人",
+    team_m3_expertise: "交易系统与运营",
+    team_m3_desc: "东京大学研究生。5+ 年外汇、期货、股票交易经验。中国最大のSMCコミュニティ共同創設者。全国先物取引コンテストで上位100位。",
+    team_m3_cred: "東大院生、クオンツトレーダー",
   },
   ja: {
     tagline: "AI駆動の金融イノベーション",
@@ -264,6 +284,16 @@ const defaultMessages: Record<Locale, Messages> = {
     footer_privacy: "プライバシー",
     footer_terms: "利用規約",
     footer_cookies: "クッキー",
+    // Team card content
+    team_m1_expertise: "AIガバナンスと法務",
+    team_m1_desc: "慶應義塾大学ロースクールでJ.D。複数の大手法律事務所でのインターン経験。AI規制・倫理ガバナンスの専門家で、複数の特許出願中。現在、日本政府に対する違憲訴訟を進行中。",
+    team_m1_cred: "慶應 JD、AIガバナンス研究",
+    team_m2_expertise: "AI研究とクオンツ取引",
+    team_m2_desc: "早稲田大学工学博士、Sony AI リサーチリード。AI研究15年以上、投資経験12年で年平均22%のリターン。トップ会議での論文多数。",
+    team_m2_cred: "早稲田博士、Sony AI リサーチリード",
+    team_m3_expertise: "取引システムとオペレーション",
+    team_m3_desc: "東京大学大学院生。FX・先物・株式で5年以上の経験。中国最大のSMCコミュニティ共同創設者。全国先物取引コンテストで上位100位。",
+    team_m3_cred: "東大院生、クオンツトレーダー",
   },
 }
 

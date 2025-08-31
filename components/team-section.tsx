@@ -9,34 +9,34 @@ export default function TeamSection() {
     {
       name: "Jayne Yu",
       role: "CEO",
-      expertise: "AI Governance & Legal Affairs",
-      description: "Juris Doctor from Keio University Law School. Internship experience at several top law firms. Specialist in AI regulation and ethics governance with multiple patents pending. Currently pursuing constitutional litigation against the Japanese government.",
+      expertise: t('team_m1_expertise'),
+      description: t('team_m1_desc'),
       image: "JY",
       imageSrc: "/Jayne.jpg",
       color: "from-blue-500 to-purple-600",
-      credentials: "Keio JD, AI Governance Research",
+      credentials: t('team_m1_cred'),
       linkedin: "https://linkedin.com/in/jayne-yu-synovaw/"
     },
     {
       name: "Joe Wang",
       role: "CTO", 
-      expertise: "AI Research & Quantitative Trading",
-      description: "PhD in Engineering from Waseda University, Sony AI Research Lead. 15+ years in AI research, 12 years investment experience with 22% average annual returns. Published multiple top-tier AI conference papers.",
+      expertise: t('team_m2_expertise'),
+      description: t('team_m2_desc'),
       image: "JW",
       imageSrc: "/Joe.jpg",
       color: "from-purple-500 to-pink-600",
-      credentials: "Waseda PhD, Sony AI Research Lead",
+      credentials: t('team_m2_cred'),
       linkedin: "https://linkedin.com/in/wang1946may7/"
     },
     {
       name: "Evy Yang",
       role: "COO",
-      expertise: "Trading Systems & Operations",
-      description: "Graduate student at University of Tokyo. 5+ years of experience in FX, futures, and stock trading. Co-founder of China's largest Smart Money Concept trading community. Top 100 finisher in China National Futures Trading Competition.",
+      expertise: t('team_m3_expertise'),
+      description: t('team_m3_desc'),
       image: "EY", 
       imageSrc: "/Evy.jpg",
       color: "from-pink-500 to-red-600",
-      credentials: "UTokyo Graduate, Quant Trader",
+      credentials: t('team_m3_cred'),
       linkedin: "https://linkedin.com/in/evy-yang-086b24375"
     }
   ]
@@ -50,13 +50,13 @@ export default function TeamSection() {
             className="inline-flex items-center px-4 py-2 rounded-full bg-white/5 backdrop-blur-sm mb-6"
             style={{ filter: "url(#glass-effect)" }}
           >
-            <span className="text-white/90 text-sm font-light">{t('team_chip')}</span>
+            <span className="text-white/90 text-sm font-light">Meet Our Team</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-light text-white mb-4">
-            <span className="font-medium italic instrument">{t('team_title_visionary')}</span> {t('team_title_rest')}
+            <span className="font-medium italic instrument">Visionary</span> Leadership
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            {t('team_subtitle')}
+            Our founding team combines decades of experience in AI research, financial technology, and quantitative analysis.
           </p>
         </div>
 
