@@ -56,7 +56,7 @@ export default function TeamSection() {
             <span className="font-medium italic instrument">Visionary</span> Leadership
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            Our founding team combines decades of experience in AI research, financial technology, and quantitative analysis.
+            {t('team_subtitle')}
           </p>
         </div>
 
