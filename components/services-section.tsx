@@ -1,6 +1,8 @@
 "use client"
 
+
 export default function ServicesSection() {
+  
   const services = [
     {
       title: "Multi-Agent LLM Analysis",
@@ -28,7 +30,7 @@ export default function ServicesSection() {
             className="inline-flex items-center px-4 py-2 rounded-full bg-white/5 backdrop-blur-sm mb-6"
             style={{ filter: "url(#glass-effect)" }}
           >
-            <span className="text-white/90 text-sm font-light">Our Core Services</span>
+            <span className="text-white/90 text-sm font-light">{t('title')}</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-light text-white mb-4">
             <span className="font-medium italic instrument">Revolutionary</span> AI Solutions

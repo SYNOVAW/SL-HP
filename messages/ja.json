@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "Intelligent Financial Solutions",
+    "tagline": "AI駆動の金融イノベーション",
+    "description": "Sail LabはAI駆動の自動化、インテリジェントなリスク管理、そしてリアルタイムで市場の動向に適応する最先端の量的取引ソリューションを通じて金融サービスに革命をもたらします。",
+    "learnMore": "詳細を見る",
+    "contactUs": "お問い合わせ"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "services": "サービス",
+    "about": "会社概要",
+    "products": "製品",
+    "team": "チーム",
+    "contact": "お問い合わせ"
+  },
+  "services": {
+    "title": "私たちのサービス",
+    "aiTrading": "AI取引",
+    "riskManagement": "リスク管理",
+    "portfolioOptimization": "ポートフォリオ最適化",
+    "marketAnalysis": "市場分析"
+  },
+  "team": {
+    "title": "私たちのチーム",
+    "subtitle": "専門家をご紹介します"
+  },
+  "products": {
+    "title": "私たちの製品",
+    "subtitle": "革新的なソリューション"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "ご連絡ください",
+    "email": "メール",
+    "phone": "電話",
+    "address": "住所"
+  },
+  "footer": {
+    "copyright": "© 2024 SAIL Lab. 全権利保留。",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  }
+}

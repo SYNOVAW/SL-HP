@@ -30,7 +30,7 @@ export default function ContactSection() {
         </svg>
       ),
       title: "Visit Us",
-      content: "Tokyo, Japan",
+      content: "Daiya Gate 5F, Minami-Ikebukuro 1-16-15, Toshima City, Tokyo 171-0022, Japan",
       description: "Schedule a meeting at our headquarters"
     }
   ]

@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState } from "react"
+import "../fd-globals.css"
 import { TopNav } from "@/components/navigation/top-nav"
 import { NavSidebar } from "@/components/navigation/nav-sidebar"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"

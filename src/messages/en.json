@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "Intelligent Financial Solutions",
+    "tagline": "AI-Powered Financial Innovation",
+    "description": "Sail Lab revolutionizes financial services through AI-driven automation, intelligent risk management, and cutting-edge quantitative trading solutions that adapt to market dynamics in real-time.",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "products": "Products",
+    "team": "Team",
+    "contact": "Contact"
+  },
+  "services": {
+    "title": "Our Services",
+    "aiTrading": "AI Trading",
+    "riskManagement": "Risk Management",
+    "portfolioOptimization": "Portfolio Optimization",
+    "marketAnalysis": "Market Analysis"
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet our experts"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Innovative solutions"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address"
+  },
+  "footer": {
+    "copyright": "© 2024 SAIL Lab. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

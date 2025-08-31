@@ -31,26 +31,27 @@ export default function Header() {
           href="#services"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          Services
+          {t('services')}
         </a>
         <a
           href="#team"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          Team
+          {t('team')}
         </a>
         <a
           href="#products"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          Products
+          {t('products')}
         </a>
         <a
           href="#contact"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          Contact
+          {t('contact')}
         </a>
+        <LanguageSwitcher />
       </nav>
 
       {/* Contact Button Group with Arrow */}
