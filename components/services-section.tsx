@@ -1,8 +1,10 @@
 "use client"
 
+import { useI18n } from "@/lib/i18n"
 
 export default function ServicesSection() {
-  
+  const { t } = useI18n()
+
   const services = [
     {
       title: "Multi-Agent LLM Analysis",
@@ -30,7 +32,7 @@ export default function ServicesSection() {
             className="inline-flex items-center px-4 py-2 rounded-full bg-white/5 backdrop-blur-sm mb-6"
             style={{ filter: "url(#glass-effect)" }}
           >
-            <span className="text-white/90 text-sm font-light">{t('title')}</span>
+            <span className="text-white/90 text-sm font-light">{t('services_title_chip')}</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-light text-white mb-4">
             <span className="font-medium italic instrument">Revolutionary</span> AI Solutions
@@ -52,7 +54,6 @@ export default function ServicesSection() {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/10 to-purple-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               
               <div className="relative z-10">
-                <div className="text-4xl mb-4">{service.icon}</div>
                 <h3 className="text-xl font-medium text-white mb-3">{service.title}</h3>
                 <p className="text-white/70 text-sm mb-4 leading-relaxed">{service.description}</p>
                 
