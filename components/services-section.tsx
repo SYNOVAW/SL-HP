@@ -7,19 +7,19 @@ export default function ServicesSection() {
 
   const services = [
     {
-      title: "Multi-Agent LLM Analysis",
-      description: "Revolutionary investment analysis through collaborative AI agents that provide deep market insights and comprehensive reporting capabilities.",
-      features: ["Multi-agent collaboration", "Deep market research", "Investment report generation"]
+      title: t("svc1_title"),
+      description: t("svc1_desc"),
+      features: [t("svc1_f1"), t("svc1_f2"), t("svc1_f3")]
     },
     {
-      title: "Neural Network–Driven Quantitative Trading",
-      description: "Advanced neural network-driven quantitative systems that continuously learn and adapt to market conditions for optimized trading performance.",
-      features: ["Adaptive neural networks", "Real-time optimization", "Pattern recognition"]
+      title: t("svc2_title"),
+      description: t("svc2_desc"),
+      features: [t("svc2_f1"), t("svc2_f2"), t("svc2_f3")]
     },
     {
-      title: "AI Trader Community",
-      description: "Intelligent platform connecting AI traders with collaborative tools, strategy sharing, and community-driven performance enhancement.",
-      features: ["Strategy marketplace", "Community insights", "Performance analytics"]
+      title: t("svc3_title"),
+      description: t("svc3_desc"),
+      features: [t("svc3_f1"), t("svc3_f2"), t("svc3_f3")]
     }
   ]
 
