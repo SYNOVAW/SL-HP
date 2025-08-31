@@ -44,97 +44,97 @@ export default function ContactSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <div
-            className="inline-flex items-center px-4 py-2 rounded-full bg白/5 backdrop-blur-sm mb-6"
+            className="inline-flex items-center px-4 py-2 rounded-full bg-white/5 backdrop-blur-sm mb-6"
             style={{ filter: "url(#glass-effect)" }}
           >
-            <span className="text白/90 text-sm font-light">{t("contact_chip")}</span>
+            <span className="text-white/90 text-sm font-light">{t("contact_chip")}</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-light text白 mb-4">
-            <span className="font-medium italic instrument">{t("contact_title_ready")}</span> {t("contact_title_rest")}
+          <h2 className="text-4xl md:text-5xl font-light text-white mb-4">
+            <span className="font-medium italic instrument">Ready</span> to Transform
           </h2>
-          <p className="text白/70 text-lg max-w-2xl mx-auto">
-            {t("contact_subtitle")}
+          <p className="text-white/70 text-lg max-w-2xl mx-auto">
+            Partner with Sail Lab to revolutionize your financial operations with cutting-edge AI solutions.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div>
-            <h3 className="text-2xl font-medium text白 mb-8">{t("contact_intro")}</h3>
+            <h3 className="text-2xl font-medium text-white mb-8">{t("contact_intro")}</h3>
             
             <div className="space-y-6">
               {contactInfo.map((info, index) => (
                 <div
                   key={index}
-                  className="group flex items-start space-x-4 p-4 rounded-xl bg白/5 backdrop-blur-sm border border白/10 hover:bg白/10 transition-all duration-300"
+                  className="group flex items-start space-x-4 p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all duration-300"
                   style={{ filter: "url(#glass-effect)" }}
                 >
                   <div className="text-blue-400 mt-1">{info.icon}</div>
                   <div>
-                    <h4 className="text白 font-medium mb-1">{info.title}</h4>
-                    <div className="text白/90 mb-1">{info.content}</div>
-                    <p className="text白/60 text-sm">{info.description}</p>
+                    <h4 className="text-white font-medium mb-1">{info.title}</h4>
+                    <div className="text-white/90 mb-1">{info.content}</div>
+                    <p className="text-white/60 text-sm">{info.description}</p>
                   </div>
                 </div>
               ))}
             </div>
 
             {/* Additional Info */}
-            <div className="mt-8 p-6 rounded-xl bg白/5 backdrop-blur-sm border border白/10" style={{ filter: "url(#glass-effect)" }}>
-              <h4 className="text白 font-medium mb-2">{t("contact_hours")}</h4>
-              <p className="text白/70 text-sm">{t("contact_hours_week")}</p>
-              <p className="text白/70 text-sm">{t("contact_hours_247")}</p>
+            <div className="mt-8 p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10" style={{ filter: "url(#glass-effect)" }}>
+              <h4 className="text-white font-medium mb-2">{t("contact_hours")}</h4>
+              <p className="text-white/70 text-sm">{t("contact_hours_week")}</p>
+              <p className="text-white/70 text-sm">{t("contact_hours_247")}</p>
             </div>
           </div>
 
           {/* Contact Form */}
           <div
-            className="p-8 rounded-2xl bg白/5 backdrop-blur-sm border border白/10"
+            className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10"
             style={{ filter: "url(#glass-effect)" }}
           >
-            <h3 className="text-2xl font-medium text白 mb-6">{t("contact_form_title")}</h3>
+            <h3 className="text-2xl font-medium text-white mb-6">{t("contact_form_title")}</h3>
             
             <form className="space-y-4">
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text白/70 text-sm mb-2">{t("contact_first_name")}</label>
+                  <label className="block text-white/70 text-sm mb-2">{t("contact_first_name")}</label>
                   <input
                     type="text"
-                    className="w-full px-4 py-3 rounded-lg bg白/10 border border白/20 text白 placeholder白/50 focus:border-blue-400 focus:outline-none transition-colors"
+                    className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none transition-colors"
                     placeholder="John"
                   />
                 </div>
                 <div>
-                  <label className="block text白/70 text-sm mb-2">{t("contact_last_name")}</label>
+                  <label className="block text-white/70 text-sm mb-2">{t("contact_last_name")}</label>
                   <input
                     type="text"
-                    className="w-full px-4 py-3 rounded-lg bg白/10 border border白/20 text白 placeholder白/50 focus:border-blue-400 focus:outline-none transition-colors"
+                    className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none transition-colors"
                     placeholder="Doe"
                   />
                 </div>
               </div>
               
               <div>
-                <label className="block text白/70 text-sm mb-2">{t("contact_email")}</label>
+                <label className="block text-white/70 text-sm mb-2">{t("contact_email")}</label>
                 <input
                   type="email"
-                  className="w-full px-4 py-3 rounded-lg bg白/10 border border白/20 text白 placeholder白/50 focus:border-blue-400 focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none transition-colors"
                   placeholder="john@company.com"
                 />
               </div>
               
               <div>
-                <label className="block text白/70 text-sm mb-2">{t("contact_company")}</label>
+                <label className="block text-white/70 text-sm mb-2">{t("contact_company")}</label>
                 <input
                   type="text"
-                  className="w-full px-4 py-3 rounded-lg bg白/10 border border白/20 text白 placeholder白/50 focus:border-blue-400 focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none transition-colors"
                   placeholder="Your Company Name"
                 />
               </div>
               
               <div>
-                <label className="block text白/70 text-sm mb-2">{t("contact_interest")}</label>
-                <select className="w-full px-4 py-3 rounded-lg bg白/10 border border白/20 text白 focus:border-blue-400 focus:outline-none transition-colors">
+                <label className="block text-white/70 text-sm mb-2">{t("contact_interest")}</label>
+                <select className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white focus:border-blue-400 focus:outline-none transition-colors">
                   <option value="" className="bg-black">{t("contact_interest_placeholder")}</option>
                   <option value="automation" className="bg-black">{t("contact_interest_automation")}</option>
                   <option value="risk" className="bg-black">{t("contact_interest_risk")}</option>
@@ -144,17 +144,17 @@ export default function ContactSection() {
               </div>
               
               <div>
-                <label className="block text白/70 text-sm mb-2">{t("contact_message")}</label>
+                <label className="block text-white/70 text-sm mb-2">{t("contact_message")}</label>
                 <textarea
                   rows={4}
-                  className="w-full px-4 py-3 rounded-lg bg白/10 border border白/20 text白 placeholder白/50 focus:border-blue-400 focus:outline-none transition-colors resize-none"
+                  className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none transition-colors resize-none"
                   placeholder={t("contact_message_placeholder")}
                 />
               </div>
               
               <button
                 type="submit"
-                className="w-full py-3 px-6 rounded-lg bg-white text-black font-medium transition-all duration-200 hover:bg白/90"
+                className="w-full py-3 px-6 rounded-lg bg-white text-black font-medium transition-all duration-200 hover:bg-white/90"
               >
                 {t("contact_send")}
               </button>
