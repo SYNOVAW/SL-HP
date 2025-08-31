@@ -118,6 +118,9 @@ const defaultMessages: Record<Locale, Messages> = {
     svc3_f1: "Strategy marketplace",
     svc3_f2: "Community insights",
     svc3_f3: "Performance analytics",
+    // Section subtitles
+    services_subtitle: "SaiL Lab provides comprehensive AI-powered solutions that transform traditional financial operations into intelligent, adaptive systems.",
+    products_subtitle: "Discover our suite of AI-powered financial products designed to transform your business operations.",
   },
   zh: {
     tagline: "AI驱动的金融创新",
@@ -206,7 +209,7 @@ const defaultMessages: Record<Locale, Messages> = {
     footer_cookies: "Cookies",
     // Team card content
     team_m1_expertise: "AI 治理与法律事务",
-    team_m1_desc: "庆应义塾大学法学院法学博士。曾在多家顶尖律所实习。专长于 AI 监管与伦理治理，拥有多项在审专利。目前正就日本政府推进宪法诉讼。",
+    team_m1_desc: "庆应义塾大学法学院法务博士。曾在多家顶尖律所实习。专长于 AI 监管与伦理治理，拥有多项在审专利。目前正就日本政府推进宪法诉讼。",
     team_m1_cred: "庆应 JD，AI 治理研究",
     team_m2_expertise: "AI 研究与量化交易",
     team_m2_desc: "早稻田大学工学博士，Sony AI 研究负责人。15+ 年 AI 研究、12 年投资经验，年均收益 22%。多篇顶级会议论文发表。",
@@ -230,6 +233,9 @@ const defaultMessages: Record<Locale, Messages> = {
     svc3_f1: "策略市场",
     svc3_f2: "社区洞察",
     svc3_f3: "绩效分析",
+    // Section subtitles
+    services_subtitle: "SaiL Lab 提供覆盖全流程的 AI 方案，将传统金融业务转化为智能、可自适应的系统。",
+    products_subtitle: "探索我们的一系列 AI 金融产品，助力您升级业务运作。",
   },
   ja: {
     tagline: "AI駆動の金融イノベーション",
@@ -255,7 +261,7 @@ const defaultMessages: Record<Locale, Messages> = {
     p1_f4: "実証済み実績（トヨタ +12%）",
     p1_pricing: "$18/月（Basic）, $39/月（Pro）",
     // Product 2
-    p2_name: "ニューラル量的システム",
+    p2_name: "ニューラルネットワーク駆動型クオンツシステム",
     p2_category: "短期取引（株式・FX・暗号資産）",
     p2_desc: "Offline RL + ヒューリスティック統合と OIL（Oracle 模倣学習）により、既存戦略を置き換えずに強化。",
     p2_f1: "オフライン RL + ヒューリスティック",
@@ -318,11 +324,11 @@ const defaultMessages: Record<Locale, Messages> = {
     footer_cookies: "クッキー",
     // Team card content
     team_m1_expertise: "AIガバナンスと法務",
-    team_m1_desc: "慶應義塾大学ロースクールでJ.D。複数の大手法律事務所でのインターン経験。AI規制・倫理ガバナンスの専門家で、複数の特許出願中。現在、日本政府に対する違憲訴訟を進行中。",
+    team_m1_desc: "慶應義塾大学法務博士。複数の大手法律事務所でのインターン経験。AI規制・倫理ガバナンスの専門家で、複数の特許出願中。現在、日本政府に対する違憲訴訟を進行中。",
     team_m1_cred: "慶應 JD、AIガバナンス研究",
     team_m2_expertise: "AI研究とクオンツ取引",
     team_m2_desc: "早稲田大学工学博士、Sony AI リサーチリード。AI研究15年以上、投資経験12年で年平均22%のリターン。トップ会議での論文多数。",
-    team_m2_cred: "早稲田博士、Sony AI リサーチリード",
+    team_m2_cred: "早稲田PhD、Sony AI リサーチリード",
     team_m3_expertise: "取引システムとオペレーション",
     team_m3_desc: "東京大学大学院生。FX・先物・株式で5年以上の経験。中国最大のSMCコミュニティ共同創設者。全国先物取引コンテストで上位100位。",
     team_m3_cred: "東大院生、クオンツトレーダー",
@@ -332,8 +338,8 @@ const defaultMessages: Record<Locale, Messages> = {
     svc1_f1: "マルチエージェント協調",
     svc1_f2: "深層的な市場調査",
     svc1_f3: "投資レポート生成",
-    svc2_title: "ニューラルネット駆動の量的取引",
-    svc2_desc: "市場環境に継続的に学習・適応し、取引パフォーマンスを最適化する先進的な量的システム。",
+    svc2_title: "ニューラルネットワーク駆動型クオンツシステム",
+    svc2_desc: "市場環境に継続的に学習・適応し、取引パフォーマンスを最適化する先進的なクオンツシステム。",
     svc2_f1: "適応型ニューラルネット",
     svc2_f2: "リアルタイム最適化",
     svc2_f3: "パターン認識",
@@ -342,6 +348,9 @@ const defaultMessages: Record<Locale, Messages> = {
     svc3_f1: "戦略マーケットプレイス",
     svc3_f2: "コミュニティインサイト",
     svc3_f3: "パフォーマンス分析",
+    // Section subtitles
+    services_subtitle: "SaiL Lab は包括的なAIソリューションにより、従来の金融業務を知的で適応的なシステムへと変革します。",
+    products_subtitle: "ビジネスを変革するAI金融プロダクトのラインアップをご覧ください。",
   },
 }
 

@@ -58,7 +58,7 @@ export default function ProductsSection() {
             <span className="font-medium italic instrument">Innovative</span> Solutions
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            Discover our suite of AI-powered financial products designed to transform your business operations.
+            {t('products_subtitle')}
           </p>
         </div>
 

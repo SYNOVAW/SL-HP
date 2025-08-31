@@ -38,7 +38,7 @@ export default function ServicesSection() {
             <span className="font-medium italic instrument">Revolutionary</span> AI Solutions
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            SaiL Lab provides comprehensive AI-powered solutions that transform traditional financial operations into intelligent, adaptive systems.
+            {t('services_subtitle')}
           </p>
         </div>
 
